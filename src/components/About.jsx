@@ -14,19 +14,19 @@ function About() {
         visually stunning Software solutions that leave a lasting impression.
       </p>
       <br />
-      <h1 className="text-red-600 font-semibold text-xl">
+      <h1 className="underline text-red-600 font-semibold text-xl">
         Education & Training
       </h1>
-      <span>
-        [Degree/Certification], [Institution], [Year] [Degree/Certification],
-        [Institution], [Year] [Relevant Course], [Platform/Institution],
-        [Year]
+      <span className="font-bold">
+        MCA, 2024- Present  <br /> Graphic Era Hill University<br /> BCA, 2021 - 2024 <br />
+        Graphic Era Hill University <br /> Cloud Jr. Analyst, 01/2024 - 06/2024 <br /> AWS,
+        
       </span>
       <br />
       <br />
-      <h1 className="text-red-600 font-semibold text-xl">
+      <h1 className="underline text-red-600 font-semibold text-xl">
         Skills & Expertise
-      </h1>
+      </h1>underline 
       <span>
         Proficient in [Programming Languages] Experienced with [Software
         Tools/Technologies] Strong grasp of [Design Principles/Concepts]
@@ -35,7 +35,7 @@ function About() {
       </span>
       <br />
       <br />
-      <h1 className="text-red-600 font-semibold text-xl">
+      <h1 className="underline text-red-600 font-semibold text-xl">
         Professional Experience
       </h1>
       <span>
@@ -47,7 +47,7 @@ function About() {
       </span>
       <br />
       <br />
-      <h1 className="text-red-600 font-semibold text-xl">
+      <h1 className="underline text-red-600 font-semibold text-xl">
         Achievements & Awards
       </h1>
       <span>
@@ -56,7 +56,7 @@ function About() {
       </span>
       <br />
       <br />
-      <h1 className="text-red-600 font-semibold text-xl">
+      <h1 className="underline text-red-600 font-semibold text-xl">
         Mission Statement
       </h1>
       <p>

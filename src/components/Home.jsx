@@ -1,6 +1,6 @@
 import React from 'react'
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/Avatar.png";
 
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -40,11 +40,11 @@ function Home() {
                 <p className='text-sm md:text-md text-justify'>
                 I'm a Computer Science student who loves solving problems and building Websites.
 
-                Currently I am pursuing BCA at Graphic Era Hill University . I love to explore new things.
+                Currently I am pursuing <span className="text-blue-700 font-bold">MCA</span> at Graphic Era Hill University . I love to explore new things.
 
                 I am more interested in building newWeb Technologies and Products.
 
-                I always apply my experience in developing products with Node.js and Modern Javascript Library and Framework like React.js.
+                I always apply my experience in developing products with Node.js and Modern Javascript Library and Framework like vite + React.js.
 
                 Currently expanding my portfolio by building more projects projects that I can add here.
                 </p>
