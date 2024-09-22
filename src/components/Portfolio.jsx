@@ -52,10 +52,19 @@ function Portfolio() {
                     <img src={logo}className='w-[120px] h-[120px] p-1 rounded-full border-[2px]' alt="" />
                     <div>
                         <div className='px-2 font-bold text-xl mb-2'>{name}</div>
-                        <p className='px-2 text-gray-700'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p className='px-2 text-gray-700'>Here I develop some projects using this to visit click below</p>
                         <div className="px-6 py-4 space-x-3 justify-around">
-                            <button className="bg-red-500 hover:bg-red-700 text-white font-bold rounded px-4 py-2">vedio</button>
-                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded px-4 py-2">scource code</button>
+                            <button className="bg-red-500 hover:bg-red-700 text-white font-bold rounded px-3 py-2">
+                              <a href="https://amitagarwalportfolio.netlify.app/">
+                                Demo
+                                </a>
+
+                              </button>
+                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded px-4 py-2">
+                            <a href="https://github.com/amitagarwalrkt">
+                            scource code
+                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>

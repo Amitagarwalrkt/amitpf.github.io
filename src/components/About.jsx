@@ -8,7 +8,7 @@ function About() {
   >
     <div>
       <h1 className="text-3xl font-bold mb-5">About</h1>
-      <p>
+      <p className='text-sm md:text-md text-justify'>
         Hello, I'm Amit, a passionate Web developer with a keen eye for MERN
         Stack . With a background in IT, I strive to create impactful and
         visually stunning Software solutions that leave a lasting impression.
@@ -17,53 +17,64 @@ function About() {
       <h1 className="underline text-red-600 font-semibold text-xl">
         Education & Training
       </h1>
-      <span className="font-bold">
-        MCA, 2024- Present  <br /> Graphic Era Hill University<br /> BCA, 2021 - 2024 <br />
-        Graphic Era Hill University <br /> Cloud Jr. Analyst, 01/2024 - 06/2024 <br /> AWS,
-        
-      </span>
-      <br />
+     <div className=" flex">
+     <div >
+     <p className="text-sm md:text-md text-justify font-bold">
+           MCA <br />
+           Graphic Era Hill University <br />
+           BCA <br />                                                                                                   
+           Graphic Era Hill University <br />
+           Cloud Computing Jr. Analyst <br />                                                                                     
+           AWS
+      </p>
+      </div>
+
+      <div className=" ">
+      <p className="text-sm md:text-md font-bold ">
+          2024 -  present <br /> <br />
+          2021 - 2024 <br /> <br />
+          01/2024 - 06/2024 
+        </p>
+      </div>
+     </div>
       <br />
       <h1 className="underline text-red-600 font-semibold text-xl">
         Skills & Expertise
-      </h1>underline 
-      <span>
-        Proficient in [Programming Languages] Experienced with [Software
-        Tools/Technologies] Strong grasp of [Design Principles/Concepts]
+      </h1>
+      <p className="text-sm md:text-md text-justify font-bold ">
+        Proficient in HTML5, CSS, JavaScript, jQuery Mobile, figma, Bootstrap, Vite+React, PHP Programming , Angular, SQL, MySQL. <br />Experienced with 
+        Android Studio, VS Code, X Code, Sublime Text, PyCharm, Hybrid Mobile. <br />App Strong grasp of 
+        Front-End Development , Computer Science, Back-End Web Development, VCS, Maintaining Websites <br />
         Excellent problem-solving skills Effective communicator and
         collaborator
-      </span>
-      <br />
+      </p>
       <br />
       <h1 className="underline text-red-600 font-semibold text-xl">
         Professional Experience
       </h1>
-      <span>
-        [Job Title], [Company/Organization], [Dates] [Brief description of
-        responsibilities and achievements] [Job Title],
-        [Company/Organization], [Dates] [Brief description of responsibilities
-        and achievements] [Freelance/Contract Work], [Client/Organization],
-        [Dates] [Brief description of projects and contributions]
-      </span>
+      <p className="text-sm md:text-md text-justify font-bold">
+        Freelancer, Freelancer.com, 2023 - Present During these work i develop my collabrating and technical skills. <br />Intern,
+        GAOTEK inc, 2024 here I develop my wordpress skills. <br />
+      </p >
       <br />
       <br />
       <h1 className="underline text-red-600 font-semibold text-xl">
         Achievements & Awards
       </h1>
-      <span>
-        [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-        [Organization/Platform], [Year]
-      </span>
+      <p className="text-sm md:text-md text-justify font-bold">
+        <br />
+        Cloud Computing-Jr Analyst, AWS, 12/06/2024 
+      </p>
       <br />
       <br />
       <h1 className="underline text-red-600 font-semibold text-xl">
         Mission Statement
       </h1>
-      <p>
+      <p className="text-sm md:text-md text-justify font-bold">
         My mission is to leverage my skills and creativity to deliver
-        innovative [Your Field] solutions that exceed client expectations and
-        contribute positively to the digital landscape. I am committed to
-        continuous learning and growth, always seeking new challenges and
+        innovative React.js/node.js solutions that <br />exceed client expectations and
+        contribute positively to the digital landscape.
+        <br />I am committed to continuous learning and growth, always seeking new challenges and
         opportunities to expand my horizons.
       </p>
     </div>
