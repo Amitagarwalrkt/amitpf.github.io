@@ -17,7 +17,7 @@ function About() {
       <h1 className="underline text-red-600 font-semibold text-xl">
         Education & Training
       </h1>
-     <div className=" flex">
+     <div className="flex space-x-14 md:space-x-52  ">
      <div >
      <p className="text-sm md:text-md text-justify font-bold">
            MCA <br />
@@ -29,11 +29,11 @@ function About() {
       </p>
       </div>
 
-      <div className=" ">
-      <p className="text-sm md:text-md font-bold ">
-          2024 -  present <br /> <br />
-          2021 - 2024 <br /> <br />
-          01/2024 - 06/2024 
+      <div className="font-bold">
+      <p className="text-sm md:gap-x-6">
+          2024 -  present <br/> 
+          <br /> 2021 - 2024 <br/> 
+          <br /> 01/2024 - 06/2024 
         </p>
       </div>
      </div>
